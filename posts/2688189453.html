@@ -67,17 +67,12 @@
   <link rel="preload" href="//at.alicdn.com/t/font_1946621_vpj3dq9ceqa.css" as="style" >
   <link rel="preload" href="//at.alicdn.com/t/font_1952792_89b4ac4k4up.css" as="style" >
   
-  <link rel="preload" href="//cdn.jsdelivr.net/npm/fslightbox@3.1.0/index.min.js" as="script">
-  
   
   <link rel="preload" href="/js/lib/lozad.min.js" as="script">
   
   
   
   
-  
-  
-  <link rel="prefetch" href="//unpkg.com/valine/dist/Valine.min.js" as="script">
   
   
   
@@ -140,7 +135,7 @@
         <div class="columns">
           <main class="main-column">
 <div class="image-wrapper">
-  <img src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg"
+  <img src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img166.jpg" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img166.jpg"
     srcset="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20300%20300&#39;%3E%3C/svg%3E"
     class="image lozad">
 </div>
@@ -166,7 +161,8 @@
   </header>
   <div id="section" class="post-content">
     <h1 id="这是第三篇测试文章"><a href="#这是第三篇测试文章" class="headerlink" title="这是第三篇测试文章"></a>这是第三篇测试文章</h1><h2 id="二级标题；"><a href="#二级标题；" class="headerlink" title="二级标题；"></a>二级标题；</h2><p>插入一张图片： </p>
-<p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img166.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img166.jpg"></p>
+<p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg"></p>
+<p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img114.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img114.jpg"></p>
 
   </div>
 </article>
@@ -184,11 +180,6 @@
       <i class="iconfont icon-right nav-next-icon"></i>
     </a>
   </div>
-  
-</div>
-
-<div class="card card-content comment-card" style="margin-top: 16px;">
-  <div class="comment-card-title">评论</div>
   
 </div>
 
@@ -362,23 +353,6 @@
 
   
   
-  
-  <script>
-  var addImgLayout = function () {
-    var img = document.querySelectorAll('.post-content img');
-    var i;
-    for (i = 0; i < img.length; i++) {
-      var wrapper = document.createElement('a');
-      wrapper.setAttribute('data-fslightbox', 'gallery');
-      wrapper.setAttribute('href', img[i].getAttribute('data-src'));
-      wrapper.setAttribute('style', 'width: 100%; display: flex; justify-content: center;');
-      img[i].parentElement.insertBefore(wrapper, img[i]);
-      wrapper.appendChild(img[i]);
-    }
-    refreshFsLightbox();
-  }
-</script>
-<script>loadScript("//cdn.jsdelivr.net/npm/fslightbox@3.1.0/index.min.js", addImgLayout)</script>
   
   
   
