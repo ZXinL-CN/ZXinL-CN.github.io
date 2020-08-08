@@ -139,173 +139,94 @@
       <div class="container">
         <div class="columns">
           <main class="main-column">
-<div class="card">
+<article class="card card-content">
+  <header>
+    <h1 class="post-title">
+      第二篇博客
+    </h1>
+  </header>
+  <div class="post-meta post-show-meta">
+    <time datetime="2020-08-08T04:38:25.000Z" style="display: flex; align-items: center;">
+      <i class="iconfont icon-calendar" style="margin-right: 2px;"></i>
+      <span>2020-08-08</span>
+    </time>
+    
+    <span class="dot"></span>
+    
+    <a href="/categories/综合/" class="post-meta-link">综合</a>
+    
+    
+    
+    <span class="dot"></span>
+    <span>171 words</span>
+    
+  </div>
   
-  <a href="/posts/2688189453.html" class="image-wrapper">
-    <img src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg"
-      srcset="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20300%20300&#39;%3E%3C/svg%3E"
-      class="image lozad">
-  </a>
-  
-  <article class="card card-content">
-    <a href="/posts/2688189453.html">
-      <h1 class="post-title">
-        第三篇文章
-      </h1>
-    </a>
-    <div class="card-excerpt">
+  <div class="post-meta post-show-meta" style="margin-top: -10px;">
+    <div style="display: flex; align-items: center;">
+      <i class="iconfont icon-biaoqian" style="margin-right: 2px; font-size: 1.15rem;"></i>
       
-      这里是一条测试简介
+      
+        <a href="/tags/hexo/" class="post-meta-link">hexo</a>
       
     </div>
-    <div class="card-post-footer">
-      <div class="post-meta">
-        <time datetime="2020-08-08T08:58:00.000Z" style="display: flex; align-items: center;">
-          <i class="iconfont icon-calendar" style="margin-right: 2px;"></i>
-          <span>2020-08-08</span>
-        </time>
+  </div>
+  
+  </header>
+  <div id="section" class="post-content">
+    <h2 id="关于hexo的一些配置"><a href="#关于hexo的一些配置" class="headerlink" title="关于hexo的一些配置"></a>关于hexo的一些配置</h2><h3 id="URL的优化"><a href="#URL的优化" class="headerlink" title="URL的优化"></a>URL的优化</h3><blockquote>
+<p>hexo的默认永久链接是在_config.yml里的配置permalink: :year/:month/:day/:title/。这种默认配置有个很不能接受的缺点，文件名为中文，会导致url链接里面出现中文。可以通过安装<code>hexo-abbrlink</code>插件来解决这个问题。</p>
+</blockquote>
+<h3 id="安装hexo-abbrlink插件"><a href="#安装hexo-abbrlink插件" class="headerlink" title="安装hexo-abbrlink插件"></a>安装hexo-abbrlink插件</h3><pre class="highlight"><span class="line">npm install hexo-abbrlink --save </span><br></pre>
+
+
+
+<h3 id="修改配置文件-config-yml"><a href="#修改配置文件-config-yml" class="headerlink" title="修改配置文件_config.yml"></a>修改配置文件_config.yml</h3><p>在 Hexo 的根目录的配置文件_config.yml 中做出以下修改：</p>
+<p>站点配置文件(_config.yml)里:</p>
+<pre class="highlight"><span class="line"># permalink: :year/:month/:day/:title/</span><br><span class="line"># permalink_defaults:</span><br><span class="line">permalink: post/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  # 算法：crc16(default) and crc32</span><br><span class="line">  rep: hex    # 进制：dec(default) and hex</span><br></pre>
+
+<p>使用hexo g 会自动在你的文章中加上abbrlink: 4278564287</p>
+
+  </div>
+</article>
+<div class="nav">
+  
+  <div class="nav-item-prev">
+    <a href="/posts/2018365746.html" class="nav-link">
+      <i class="iconfont icon-left nav-prev-icon"></i>
+      <div>
+        <div class="nav-label">Prev</div>
         
-        
-        <span class="dot"></span>
-        <span>19 words</span>
+        <div class="nav-title">Test </div>
         
       </div>
-      <a href="/posts/2688189453.html">Read More </a>
-    </div>
-  </article>
-</div>
-
-<div class="card">
-  
-  <article class="card card-content">
-    <a href="/posts/2018365746.html">
-      <h1 class="post-title">
-        Test
-      </h1>
     </a>
-    <div class="card-excerpt">
-      
-      测试文章
-      
-    </div>
-    <div class="card-post-footer">
-      <div class="post-meta">
-        <time datetime="2020-08-08T04:52:46.059Z" style="display: flex; align-items: center;">
-          <i class="iconfont icon-calendar" style="margin-right: 2px;"></i>
-          <span>2020-08-08</span>
-        </time>
+  </div>
+  
+  
+  <div class="nav-item-next">
+    <a href="/posts/4278564287.html" class="nav-link">
+      <div>
+        <div class="nav-label">Next</div>
         
-        
-        <span class="dot"></span>
-        <span>13 words</span>
+        <div class="nav-title">第一篇博客 </div>
         
       </div>
-      <a href="/posts/2018365746.html">Read More </a>
-    </div>
-  </article>
-</div>
-
-<div class="card">
-  
-  <article class="card card-content">
-    <a href="/posts/3176525040.html">
-      <h1 class="post-title">
-        第二篇博客
-      </h1>
+      <i class="iconfont icon-right nav-next-icon"></i>
     </a>
-    <div class="card-excerpt">
-      
-      关于hexo的一些配置
-      
-    </div>
-    <div class="card-post-footer">
-      <div class="post-meta">
-        <time datetime="2020-08-08T04:38:25.000Z" style="display: flex; align-items: center;">
-          <i class="iconfont icon-calendar" style="margin-right: 2px;"></i>
-          <span>2020-08-08</span>
-        </time>
-        
-        <span class="dot"></span>
-        
-        <a href="categories/综合/" class="post-meta-link">综合</a>
-        
-        
-        
-        <span class="dot"></span>
-        <span>171 words</span>
-        
-      </div>
-      <a href="/posts/3176525040.html">Read More </a>
-    </div>
-  </article>
-</div>
-
-<div class="card">
+  </div>
   
-  <article class="card card-content">
-    <a href="/posts/4278564287.html">
-      <h1 class="post-title">
-        第一篇博客
-      </h1>
-    </a>
-    <div class="card-excerpt">
-      
-      
-      
-    </div>
-    <div class="card-post-footer">
-      <div class="post-meta">
-        <time datetime="2020-08-08T04:21:52.000Z" style="display: flex; align-items: center;">
-          <i class="iconfont icon-calendar" style="margin-right: 2px;"></i>
-          <span>2020-08-08</span>
-        </time>
-        
-        <span class="dot"></span>
-        
-        <a href="categories/综合/" class="post-meta-link">综合</a>
-        
-        
-        
-        <span class="dot"></span>
-        <span>763 words</span>
-        
-      </div>
-      <a href="/posts/4278564287.html">Read More </a>
-    </div>
-  </article>
 </div>
 
-<div class="card">
+<div class="card card-content comment-card" style="margin-top: 16px;">
+  <div class="comment-card-title">评论</div>
   
-  <article class="card card-content">
-    <a href="/posts/1243066710.html">
-      <h1 class="post-title">
-        Hello World
-      </h1>
-    </a>
-    <div class="card-excerpt">
-      
-      Welcome to Hexo! This is your very first post. Check 
-      
-    </div>
-    <div class="card-post-footer">
-      <div class="post-meta">
-        <time datetime="2020-08-02T05:41:39.350Z" style="display: flex; align-items: center;">
-          <i class="iconfont icon-calendar" style="margin-right: 2px;"></i>
-          <span>2020-08-02</span>
-        </time>
-        
-        
-        <span class="dot"></span>
-        <span>75 words</span>
-        
-      </div>
-      <a href="/posts/1243066710.html">Read More </a>
-    </div>
-  </article>
 </div>
 
-</main>
+<div class="card card-content toc-card" id="mobiletoc">
+  <div class="toc-header"><i class="iconfont icon-menu" style="padding-right: 2px;"></i>TOC</div>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8Ehexo%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE"><span class="toc-text">关于hexo的一些配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#URL%E7%9A%84%E4%BC%98%E5%8C%96"><span class="toc-text">URL的优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85hexo-abbrlink%E6%8F%92%E4%BB%B6"><span class="toc-text">安装hexo-abbrlink插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-config-yml"><span class="toc-text">修改配置文件_config.yml</span></a></li></ol></li></ol>
+</div></main>
           <aside class="left-column">
             
             <div class="card card-author">
@@ -336,6 +257,13 @@
             
             <div class="sticky-tablet">
   
+  
+  <article class="display-when-two-columns spacer">
+    <div class="card card-content toc-card">
+      <div class="toc-header"><i class="iconfont icon-menu" style="padding-right: 2px;"></i>TOC</div>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8Ehexo%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE"><span class="toc-text">关于hexo的一些配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#URL%E7%9A%84%E4%BC%98%E5%8C%96"><span class="toc-text">URL的优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85hexo-abbrlink%E6%8F%92%E4%BB%B6"><span class="toc-text">安装hexo-abbrlink插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-config-yml"><span class="toc-text">修改配置文件_config.yml</span></a></li></ol></li></ol>
+    </div>
+  </article>
   
   
   <article class="card card-content">
@@ -368,51 +296,16 @@
   </article>
   
   
-  <article class="card card-content widescreen-archive">
-    <div class="archive-card">
-  <div class="archive-card-header"><i class="iconfont icon-wodebaobiao" style="padding-right: 2px;"></i>归档</div>
-  <!-- <div class="archive-card-header"><i class="iconfont icon-wodebaobiao" style="padding-right: 2px;"></i>Archive</div> -->
-  <div class="archive-card-list">
-    
-    
-    
-      
-        
-        
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-    
-      <a href="/archives/2020" class="archive-card-list-item">
-          2020
-          <span class="archive-card-list-item-badge">5</span>
-      </a>
-    
-  </div>
-</div>
-  </article>
-  
 </div>
           </aside>
           <aside class="right-column">
             <div class="sticky-widescreen">
   
+  
+  <article class="card card-content toc-card">
+    <div class="toc-header"><i class="iconfont icon-menu" style="padding-right: 2px;"></i>TOC</div>
+<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8Ehexo%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE"><span class="toc-text">关于hexo的一些配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#URL%E7%9A%84%E4%BC%98%E5%8C%96"><span class="toc-text">URL的优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85hexo-abbrlink%E6%8F%92%E4%BB%B6"><span class="toc-text">安装hexo-abbrlink插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-config-yml"><span class="toc-text">修改配置文件_config.yml</span></a></li></ol></li></ol>
+  </article>
   
   
   <article class="card card-content">
@@ -445,46 +338,6 @@
 </div>
   </article>
   
-  
-  <article class="card card-content">
-    <div class="archive-card">
-  <div class="archive-card-header"><i class="iconfont icon-wodebaobiao" style="padding-right: 2px;"></i>归档</div>
-  <!-- <div class="archive-card-header"><i class="iconfont icon-wodebaobiao" style="padding-right: 2px;"></i>Archive</div> -->
-  <div class="archive-card-list">
-    
-    
-    
-      
-        
-        
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-    
-      <a href="/archives/2020" class="archive-card-list-item">
-          2020
-          <span class="archive-card-list-item-badge">5</span>
-      </a>
-    
-  </div>
-</div>
-  </article>
   
 </div>
           </aside>

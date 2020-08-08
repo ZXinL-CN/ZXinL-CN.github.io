@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>XinL</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://zxinl-cn.github.io/"/>
+  <updated>2020-08-08T09:09:34.051Z</updated>
+  <id>https://zxinl-cn.github.io/</id>
+  
+  <author>
+    <name>Xin L</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第三篇文章</title>
+    <link href="https://zxinl-cn.github.io/posts/2688189453.html"/>
+    <id>https://zxinl-cn.github.io/posts/2688189453.html</id>
+    <published>2020-08-08T08:58:00.000Z</published>
+    <updated>2020-08-08T09:09:34.051Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是第三篇测试文章"><a href="#这是第三篇测试文章" class="headerlink" title="这是第三篇测试文章"></a>这是第三篇测试文章</h1><h2 id="二级标题；"><a href="#二级标题；" class="headerlink" title="二级标题；"></a>二级标题；</h2><p>插入一张图片： </p><p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img166.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img166.jpg"></p>]]></content>
+    
+    <summary type="html">
+    
+      这里是一条测试简介
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Test</title>
+    <link href="https://zxinl-cn.github.io/posts/2018365746.html"/>
+    <id>https://zxinl-cn.github.io/posts/2018365746.html</id>
+    <published>2020-08-08T04:52:46.059Z</published>
+    <updated>2020-08-08T08:37:59.839Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试文章"><a href="#测试文章" class="headerlink" title="测试文章"></a>测试文章</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><blockquote><p>测试内容</p></blockquote><p>:apple:</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;测试文章&quot;&gt;&lt;a href=&quot;#测试文章&quot; class=&quot;headerlink&quot; title=&quot;测试文章&quot;&gt;&lt;/a&gt;测试文章&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇博客</title>
+    <link href="https://zxinl-cn.github.io/posts/3176525040.html"/>
+    <id>https://zxinl-cn.github.io/posts/3176525040.html</id>
+    <published>2020-08-08T04:38:25.000Z</published>
+    <updated>2020-08-08T04:46:34.469Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于hexo的一些配置"><a href="#关于hexo的一些配置" class="headerlink" title="关于hexo的一些配置"></a>关于hexo的一些配置</h2><h3 id="URL的优化"><a href="#URL的优化" class="headerlink" title="URL的优化"></a>URL的优化</h3><blockquote><p>hexo的默认永久链接是在_config.yml里的配置permalink: :year/:month/:day/:title/。这种默认配置有个很不能接受的缺点，文件名为中文，会导致url链接里面出现中文。可以通过安装<code>hexo-abbrlink</code>插件来解决这个问题。</p></blockquote><h3 id="安装hexo-abbrlink插件"><a href="#安装hexo-abbrlink插件" class="headerlink" title="安装hexo-abbrlink插件"></a>安装hexo-abbrlink插件</h3><pre class="highlight"><span class="line">npm install hexo-abbrlink --save </span><br></pre><h3 id="修改配置文件-config-yml"><a href="#修改配置文件-config-yml" class="headerlink" title="修改配置文件_config.yml"></a>修改配置文件_config.yml</h3><p>在 Hexo 的根目录的配置文件_config.yml 中做出以下修改：</p><p>站点配置文件(_config.yml)里:</p><pre class="highlight"><span class="line"># permalink: :year/:month/:day/:title/</span><br><span class="line"># permalink_defaults:</span><br><span class="line">permalink: post/:abbrlink.html</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  # 算法：crc16(default) and crc32</span><br><span class="line">  rep: hex    # 进制：dec(default) and hex</span><br></pre><p>使用hexo g 会自动在你的文章中加上abbrlink: 4278564287</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;关于hexo的一些配置&quot;&gt;&lt;a href=&quot;#关于hexo的一些配置&quot; class=&quot;headerlink&quot; title=&quot;关于hexo的一些配置&quot;&gt;&lt;/a&gt;关于hexo的一些配置&lt;/h2&gt;&lt;h3 id=&quot;URL的优化&quot;&gt;&lt;a href=&quot;#URL的优化&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="综合" scheme="https://zxinl-cn.github.io/categories/%E7%BB%BC%E5%90%88/"/>
+    
+    
+      <category term="hexo" scheme="https://zxinl-cn.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://zxinl-cn.github.io/posts/4278564287.html"/>
+    <id>https://zxinl-cn.github.io/posts/4278564287.html</id>
+    <published>2020-08-08T04:21:52.000Z</published>
+    <updated>2020-08-08T04:47:29.382Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用hexo-github搭建静态博客-window10环境"><a href="#使用hexo-github搭建静态博客-window10环境" class="headerlink" title="使用hexo+github搭建静态博客(window10环境)"></a>使用hexo+github搭建静态博客(window10环境)</h2><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><ol><li><a href="https://nodejs.org/en/download/" title="点击进入下载页面">安装node.js</a> (选择LTS稳定版本)  ，点击下载，根据提示安装即可。</li><li>打开命令行工具输入<code>node -v</code>查看node.js版本，若出现版本号，则表示安装成功</li><li>输入<code>npm -v</code>查看npm版本（npm是一个node附带的包管理工具，类似于node的应用商店）</li><li>安装淘宝<code>cnpm</code>管理器（由于npm使用的是外网服务器，因此下载速度手抖了极大的限制）这是一个完整 npmjs.org 镜像，你可以用此代替官方版本(只读)，同步频率目前为 10分钟 一次以保证尽量与官方服务同步。<br><code>npm install -g cnpm --registry=http://registry.npm.taobao.org</code></li><li>输入<code>cnpm -v</code>查看cnpm版本</li></ol><h3 id="安装Git（关于Git的使用请查看-Pro-Git）"><a href="#安装Git（关于Git的使用请查看-Pro-Git）" class="headerlink" title="安装Git（关于Git的使用请查看 Pro Git）"></a>安装Git（关于Git的使用请查看 <a href="https://www.progit.cn/">Pro Git</a>）</h3><ol><li>由于网速原因，同样使用淘宝镜像下载Git, 访问 :<br><code>https://npm.taobao.org/mirrors/git-for-windows/</code><br>在页面最下方找到最新版，点击下载，根据提示安装即可。</li><li>初次运行 Git 前的配置:在开始菜单打开<code>Git bash</code><br>输入命令<code>$ git config --global user.name &quot;John Doe&quot;</code>设置用户名<br>输入命令<code>$ git config --global user.email johndoe@example.com</code>设置邮箱</li><li>使用<code>git config --list</code>命令检查配置信息  </li></ol><h3 id="安装hexo框架"><a href="#安装hexo框架" class="headerlink" title="安装hexo框架"></a>安装hexo框架</h3><ol><li>在命令行工具中输入<code>cnpm install -g hexo-cli</code>安装hexo框架  </li><li>输入<code>hexo -v</code>查看hexo版本  </li><li>输入<code>mkdir blog</code>创建blog文件夹</li><li>输入<code>cd blog</code>j进入blog文件夹</li><li>输入<code>hexo init</code>生成博客 初始化博客</li><li>输入<code>hexo s</code>启动本地博客服务</li><li>打开浏览器访问 <code>http://localhost:4000/</code> 可以看到博客本地访问成功</li><li>输入<code>ctrl+C</code>停止博客服务，输入<code>hexo n “我的第一篇博文”</code>创建新文章</li><li>所有文章都存放于<code>./blog/source/</code>路径下的文件夹中</li><li>在<code>blog</code>文件夹中，输入<code>hexo clean</code>清除缓存，输入<code>hexo g</code>重新生成,重新启动<code>hexo s</code>，访问 <code>http://localhost:4000/</code> 可以看到新的文章已经发布</li><li><code>ctrl+C</code>停止博客服务，输入<code>cnpm install --save hexo-deployer-git</code>在blog目录下安装Git部署插件</li></ol><h3 id="GitHub创建仓库"><a href="#GitHub创建仓库" class="headerlink" title="GitHub创建仓库"></a>GitHub创建仓库</h3><ol><li>打开GitHub创建新的仓库，命名为 <code>YourGithubName.github.io</code>,前面是 你的GitHub账户名字+后缀<code>.github.io</code>，格式不能改变。</li><li>点击创建。创建成功，复制仓库地址。</li></ol><h3 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置 _config.yml"></a>配置 _config.yml</h3><ol><li>打开blog目录下的<code>_config.yml</code>文件，在最下方找到<code>deploy</code></li><li>将以下配置添加到<code>_config.yml</code>(删除现有行，如果有)  </li></ol><pre class="highlight"><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">  type: git  </span><br><span class="line">  repo: https://github.com/<span class="tag">&lt;<span class="name">youGitHubName</span>&gt;</span>.github.io    //仓库地址  </span><br><span class="line">  branch: master  </span><br><span class="line"></span><br></pre><h3 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h3><ol><li>输入命令<code>hexo d</code>将博客部署到GitHub仓库</li><li>在浏览器输入<code>https://YourGithubName.github.io/</code> 访问这个地址可以查看博客  </li></ol><h3 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h3><ol><li>通过命令<code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code>将yilia主题下载到本地</li><li>修改blog目录下的 _config.yml 文件,将<code>theme</code>项，修改为<code>yilia</code></li><li><code>hexo clean</code>清理缓存;<code>hexo g</code>重新生成;<code>hexo d</code>部署到GitHub仓库</li><li>访问<code>https://YourGithubName.github.io/</code> 查看博客  </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;使用hexo-github搭建静态博客-window10环境&quot;&gt;&lt;a href=&quot;#使用hexo-github搭建静态博客-window10环境&quot; class=&quot;headerlink&quot; title=&quot;使用hexo+github搭建静态博客(window10环境)&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="综合" scheme="https://zxinl-cn.github.io/categories/%E7%BB%BC%E5%90%88/"/>
+    
+    
+      <category term="hexo" scheme="https://zxinl-cn.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zxinl-cn.github.io/posts/1243066710.html"/>
+    <id>https://zxinl-cn.github.io/posts/1243066710.html</id>
+    <published>2020-08-02T05:41:39.350Z</published>
+    <updated>2020-08-08T04:48:27.578Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="highlight"><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="highlight"><span class="line">$ hexo server</span><br></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="highlight"><span class="line">$ hexo generate</span><br></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="highlight"><span class="line">$ hexo deploy</span><br></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
