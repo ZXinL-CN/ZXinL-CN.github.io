@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zxinl-cn.github.io/"/>
-  <updated>2020-08-08T12:24:57.592Z</updated>
+  <updated>2020-08-16T04:36:19.721Z</updated>
   <id>https://zxinl-cn.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://zxinl-cn.github.io/posts/2688189453.html"/>
     <id>https://zxinl-cn.github.io/posts/2688189453.html</id>
     <published>2020-08-08T08:58:00.000Z</published>
-    <updated>2020-08-08T12:24:57.592Z</updated>
+    <updated>2020-08-16T04:36:19.721Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="这是第三篇测试文章"><a href="#这是第三篇测试文章" class="headerlink" title="这是第三篇测试文章"></a>这是第三篇测试文章</h1><h2 id="二级标题；"><a href="#二级标题；" class="headerlink" title="二级标题；"></a>二级标题；</h2><p>插入一张图片： </p><p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg"></p><p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img114.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img114.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="这是第三篇测试文章"><a href="#这是第三篇测试文章" class="headerlink" title="这是第三篇测试文章"></a>这是第三篇测试文章</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>插入一张图片</p><p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img93.jpg"></p><p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img114.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/img114.jpg"></p>]]></content>
     
     <summary type="html">
     
@@ -36,24 +36,25 @@
   </entry>
   
   <entry>
-    <title>Test</title>
+    <title>JS基础——ECMAScript的对象</title>
     <link href="https://zxinl-cn.github.io/posts/2018365746.html"/>
     <id>https://zxinl-cn.github.io/posts/2018365746.html</id>
     <published>2020-08-08T04:52:46.059Z</published>
-    <updated>2020-08-08T13:24:23.728Z</updated>
+    <updated>2020-08-17T00:26:40.377Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="测试文章"><a href="#测试文章" class="headerlink" title="测试文章"></a>测试文章</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><blockquote><p>测试内容</p></blockquote><p>🧡💛💚💙💜🤎</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="测试文章"><a href="#测试文章" class="headerlink" title="测试文章"></a>测试文章</h1><p>🧡💛💚💙💜🤎《一路向北》——周杰伦🎵</p><p><audio data-v-131160d2="" id="migu_audio" controls src="//freetyst.nf.migu.cn/public/product9th/product41/2020/08/1013/2009%E5%B9%B406%E6%9C%8826%E6%97%A5%E5%8D%9A%E5%B0%94%E6%99%AE%E6%96%AF/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3_40_16_Stero/60054701958132127.mp3?key=736d151cf3e171bd&amp;Tim=1597626638416&amp;channelid=00&amp;msisdn=2712cebab7b546d496153e0fde714528&amp;CI=600547019582600902000006889222&amp;F=000009"></audio></p><blockquote><p>ECMA-262把对象定义为：“无序属性的集合，其属性可以包含基本值、对象或者函数。”</p><p>严格来讲，这就相当于说对象是一组没有特定顺序的值。对象的每个属性或方法都有一个名字，而每个名字都映射到一个值。正因为这样，我们可以把ECMAScript的对象想象成散列表：无非就是一组名值对，其中值可以是数据或函数。</p><p>每个对象都是基于一个引用类型创建的，这个引用类型可以是原生类型，也可以是开发人员定义的类型。</p></blockquote><h2 id="创建对象"><a href="#创建对象" class="headerlink" title="创建对象"></a>创建对象</h2><p>创建自定义对象的最简单方式就是创建一个Object的实例，然后再为它添加属性和方法，如下所示。</p><pre class="highlight"><span class="line"><span class="keyword">var</span> person = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">person.name = <span class="string">&quot;zhangsan&quot;</span>;</span><br><span class="line">person.age = <span class="number">20</span>;</span><br><span class="line">person.sayName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    alert(<span class="built_in">this</span>.name);</span><br><span class="line">&#125;;</span><br></pre><p>上面的例子创建了一个名为person的对象，并为它添加了两个属性（name、age）和一个方法（sayName()）。其中，sayName()方法用于显示this.name（将被解析为person.name）的值。</p><p>另一种创建对象的模式叫做对象字面量。前面的例子用对象字面量语法可以写成这样：</p><pre class="highlight"><span class="line"><span class="keyword">var</span> person=&#123;</span><br><span class="line">    name:<span class="string">&quot;zhangsan&quot;</span>,</span><br><span class="line">    age:<span class="number">29</span>,</span><br><span class="line">    </span><br><span class="line">    sayName:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        alert(<span class="built_in">this</span>.name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre><h2 id="三种创建对象的模式"><a href="#三种创建对象的模式" class="headerlink" title="三种创建对象的模式"></a>三种创建对象的模式</h2><p><strong>虽然Object构造函数或对象字面量都可以用来创建单个对象，但这些方式有个明显的缺点：使用同一个接口创建很多对象，会产生大量的重复代码。为解决这个问题，可以使用工厂模式的一种变体。</strong></p><h3 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h3><p>在ECMAScript中无法创建类，但是可以用函数来封装以特定接口创建对象的细节，如下面的例子所示。</p><pre class="highlight"><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createPerson</span>(<span class="params">name, age</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">    o.name = name;</span><br><span class="line">    o.age = age;</span><br><span class="line">    o.sayName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        alert(<span class="built_in">this</span>.name);</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> person1 = createPerson(<span class="string">&quot;zhagnsan&quot;</span>,<span class="number">20</span>);</span><br><span class="line"><span class="keyword">var</span> person2 = createPerson(<span class="string">&quot;lisi&quot;</span>,<span class="number">21</span>);</span><br></pre><p>函数createPerson()能够根据接受的参数来构建一个包含所有必要信息的Person对象。可以无数次地调用这个函数，而每次它都会返回一个包含两个属性一个方法的对象。工厂模式虽然解决了创建多个相似对象的问题，但却没有解决对象识别的问题（即怎样知道一个对象的类型）。随着JavaScript的发展，又一个新模式出现了。</p><h3 id="构造函数模式"><a href="#构造函数模式" class="headerlink" title="构造函数模式"></a>构造函数模式</h3><p>在ECMAScript中的构造函数可用来创建特定类型的对象。像Object和Array这样的原生构造函数，在运行时会自动出现在执行环境中。</p><p>此外，也可以创建自定义的构造函数，从而定义自定义对象类型的属性和方法。例如，可以使用构造函数模式将前面的例子重写如下。</p><p><img  srcset="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" data-src="https://gitee.com/x-in/BlogImg/raw/master/imgs/csdn_end.jpg" class="lozad post-image"src="https://gitee.com/x-in/BlogImg/raw/master/imgs/csdn_end.jpg"></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;测试文章&quot;&gt;&lt;a href=&quot;#测试文章&quot; class=&quot;headerlink&quot; title=&quot;测试文章&quot;&gt;&lt;/a&gt;测试文章&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a
-      
+      每个对象都是基于一个引用类型创建的，这个引用类型可以是原生类型，也可以是开发人员定义的类型。
     
     </summary>
     
     
+      <category term="前端" scheme="https://zxinl-cn.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="https://zxinl-cn.github.io/tags/JavaScript/"/>
     
   </entry>
   
